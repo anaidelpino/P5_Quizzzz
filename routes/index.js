@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var quizzesController = require('../controllers/quizzesController');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
